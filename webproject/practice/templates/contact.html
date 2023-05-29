@@ -1,0 +1,23 @@
+
+{% extends 'base.html' %}
+
+{% block title %}
+      contact
+        {% endblock %}
+
+{% block contant %}
+<div class = "mt-5">
+      
+      <form action="" class="form-group mr-auto  ml-auto col-md-5">
+            <h3 class= "text-center" >Contact Page</h3><hr>
+            <input type="text" name="Name" class="form-control" id="name" placeholder= "Enter your name"><br>
+            <input type="email" name="Email" id="email"  autocomplete = "False" class= "form-control" placeholder= "Enter your email"><br>
+            <textarea name="Comments" id="commednts" class="form-control" cols="30" rows="10"
+             placeholder= "Enter your query here..."></textarea><br>
+
+
+          <input type="submit" class="btn btn-info form-control" value="SUBMIT">
+
+      </form>
+</div>
+      {% endblock %}
